@@ -7,15 +7,18 @@
 3. Выгрузить конфигурацию в файлы в иерархическом формате в $SRC_DIR$
 4. Выполнить код export.bsl, отчет сохранить в $patch.xml$
 5. Выполнить код convert.bat
-6. Содержимое полученных каталогов DataProcessors и Reports скопировать в соответсвующие каталоги $SRC_DIR$
-7. Содержимое $patch.xml$ поместить в $SRC_DIR$\Configuration.xml
-8. Загрузить конфигурацию из $SRC_DIR$
+6. Выполнить код rebuild.bsl
+7. Содержимое полученных каталогов DataProcessors и Reports скопировать в соответсвующие каталоги $SRC_DIR$
+8. Содержимое $patch.xml$ поместить в $SRC_DIR$\Configuration.xml
+9. Загрузить конфигурацию из $SRC_DIR$
 
 ### Инструкция не содержит ничего про:
  - изменению путей в коде файлов
  - изменение форм элемента/списка справочника ВнешниеОбработки
  - модификацию кода загрузки обработки не из внешнего файла, а из конфигурации
  - очистку сохраненных обработок в справочнике
+ 
+Код писался на 8.3.9.1818 в обычном приложении в режиме совместимости 8.2.16
 
 [Сказать "Спасибо" через PayPal :-)]( 
 https://www.paypal.com/cgi-bin/webscr?cmd=_donations&business=A53Q5RTCP7EKU&lc=RU&item_name=Dmitry%20Klimenko&item_number=int2ext&currency_code=RUB&bn=PP%2dDonationsBF%3abtn_donateCC_LG%2egif%3aNonHosted)
